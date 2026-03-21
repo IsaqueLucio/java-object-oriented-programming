@@ -8,5 +8,6 @@ public class TestTask{
 
         task1.completeTask();
         task3.completeTask();
+        task2.completeTask();
     }
 }

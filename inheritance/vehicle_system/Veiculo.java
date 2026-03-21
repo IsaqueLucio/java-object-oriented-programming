@@ -1,3 +1,5 @@
+package inheritance.vehicle_system;
+
 public class Veiculo{
 
     protected String marca;

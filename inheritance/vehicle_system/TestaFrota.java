@@ -1,3 +1,5 @@
+package inheritance.vehicle_system;
+
 public class TestaFrota{
     public static void main(String[] args) {
         Carro car1 = new Carro("Toyota", "Corolla", 2023, 4);

@@ -1,3 +1,5 @@
+package polymorphism.it_bonus_system;
+
 public class GerenteProjeto extends FuncionarioTI{
     
     private int projetosEntregues;
