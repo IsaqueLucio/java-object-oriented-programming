@@ -18,7 +18,8 @@ public class TestGang {
         System.out.println(gang1);
 
         gang1.removeOutlaw(outlaw2);
-
+        
         System.out.println(gang1);
+
     }
 }
