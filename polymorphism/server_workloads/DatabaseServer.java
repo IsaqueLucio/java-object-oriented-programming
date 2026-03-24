@@ -6,6 +6,7 @@ public class DatabaseServer extends Server {
         super(hostName);
     }
     
+    @Override
     public String processData(){
         return "Executing complex SQL queries and managing database on "+hostName;
     }

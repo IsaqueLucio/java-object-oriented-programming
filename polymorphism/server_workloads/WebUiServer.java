@@ -6,6 +6,7 @@ public class WebUiServer extends Server {
         super(hostName);
     }
     
+    @Override
     public String processData(){
         return "Rendering HTML/CSS and serving web pages on "+hostName;
     }
