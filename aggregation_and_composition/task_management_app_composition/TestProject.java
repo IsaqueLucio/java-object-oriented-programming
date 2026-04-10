@@ -13,8 +13,8 @@ public class TestProject {
         
         if(pro1 == null){
             System.out.println("proving that composition is working, cause now the list is null: ");
-            System.out.println(pro1.getSprintList());
-        } //Without "else" because it will never fall here, since on line 18 the list was set as null.
+            //System.out.println(pro1.getSprintList());
+        } //Without "else" because it will never fall here, since on line 12 the list was set as null.
         
     }
 }
