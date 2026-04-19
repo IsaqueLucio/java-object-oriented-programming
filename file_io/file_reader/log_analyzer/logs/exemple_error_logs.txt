@@ -1,0 +1,9 @@
+[2026-04-17 19:34:01] INFO: Connection established with database cluster-01.
+[2026-04-17 19:34:05] DEBUG: Query execution time: 12ms.
+[2026-04-17 19:34:10] **Error**: Failed to load user profile for ID: 8829. Resource not found.
+[2026-04-17 19:34:12] INFO: Retrying connection to cache layer...
+[2026-04-17 19:34:15] **ERROR**: CRITICAL_SYSTEM_FAILURE - OutOfMemoryError in heap space.
+[2026-04-17 19:34:20] WARN: High disk latency detected on /dev/sda1.
+[2026-04-17 19:34:22] **Error**: SSL handshake failed for incoming request from 192.168.1.45.
+[2026-04-17 19:34:25] INFO: System heartbeat - Status: Healthy (Partial).
+[2026-04-17 19:34:30] **ERROR**: Authentication service is unreachable. Timeout after 5000ms.
