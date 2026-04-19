@@ -1,8 +1,0 @@
-host=localhost
-backup_folder=backups
-log_level=INFO
-max_connections=100
-port=9090
-use_ssl=false
-timeout_seconds=30
-maintenance_mode=false
