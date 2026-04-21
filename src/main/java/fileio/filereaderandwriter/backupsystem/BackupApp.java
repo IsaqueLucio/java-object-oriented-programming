@@ -5,8 +5,8 @@ public class BackupApp {
         
         BackupService backupService = new BackupService();
 
-        String sourcePath = "fileio/file_reader_andwriter/backupsystem/original_fillelocation/OriginalFile.txt";
-        String destinationPath = "fileio/file_reader_andwriter/backupsystem/backupdestination";
+        String sourcePath = "src/main/java/fileio/filereaderandwriter/backupsystem/originalfillelocation/OriginalFile.txt";
+        String destinationPath = "src/main/java/fileio/filereaderandwriter/backupsystem/backupdestination";
 
         backupService.createBackup(sourcePath, destinationPath);
 

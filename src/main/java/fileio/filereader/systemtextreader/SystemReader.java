@@ -8,7 +8,7 @@ import java.io.IOException;
 public class SystemReader {
     
     public void readLogs(){
-        File logFile = new File("fileio/filewriter/system_textlogger/logs/systemlogs.txt");
+        File logFile = new File("src/main/java/fileio/filewriter/systemtextlogger/logs/systemlogs.txt");
         if(!logFile.exists()){
             System.out.println("No logs found.");
             return;

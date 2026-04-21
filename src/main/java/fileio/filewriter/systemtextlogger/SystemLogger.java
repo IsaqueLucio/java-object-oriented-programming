@@ -7,7 +7,7 @@ import java.io.IOException;
 public class SystemLogger {
     
     public void createLog(String message){   
-        File folder = new File("fileio/filewriter/system_textlogger/logs");
+        File folder = new File("src/main/java/fileio/filewriter/systemtextlogger/logs");
         if(!folder.exists()){
             folder.mkdirs();
             System.out.println("Folder 'logs' created with success.");

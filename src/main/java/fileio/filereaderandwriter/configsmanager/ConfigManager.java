@@ -13,7 +13,7 @@ public class ConfigManager {
     public void updatePortConfig(String newPort){
 
         List<String> lines = new ArrayList<>();
-        File configFile = new File("fileio/file_reader_andwriter/configsmanager/configs/config.txt");
+        File configFile = new File("src/main/java/fileio/filereaderandwriter/configsmanager/configs/config.txt");
         if(!configFile.exists()){
             System.out.println("Config file not found.");
             return;

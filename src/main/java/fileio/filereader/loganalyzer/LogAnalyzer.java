@@ -8,7 +8,7 @@ import java.io.IOException;
 public class LogAnalyzer {
     
     public void findErrors(){
-        File logFile = new File("fileio/filereader/loganalyzer/logs/exemple_errorlogs.txt");
+        File logFile = new File("src/main/java/fileio/filereader/loganalyzer/logs/ExempleErrorLogs.txt");
         if(!logFile.exists()){
             System.out.println("No logs founds.");
             return;

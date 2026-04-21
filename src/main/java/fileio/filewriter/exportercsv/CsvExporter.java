@@ -9,7 +9,7 @@ public class CsvExporter {
 
     public void exportUsers(List<String> users){
         //declaro a variavel com a localização da pasta
-        File folder = new File("fileio/filewriter/exportercsv/databasecsv");
+        File folder = new File("src/main/java/fileio/filewriter/exportercsv/databasecsv");
         //se a pasta de destino não existir
          if(!folder.exists()){
             //a pasta então é criada

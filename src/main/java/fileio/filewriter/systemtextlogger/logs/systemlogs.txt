@@ -1,0 +1,3 @@
+18:00 - Starting the system.
+18:01 - Admin logged in the system.
+18:02 - Erro: Attempted intrusion detected.
