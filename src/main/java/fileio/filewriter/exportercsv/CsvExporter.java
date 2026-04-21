@@ -8,30 +8,30 @@ import java.util.List;
 public class CsvExporter {
 
     public void exportUsers(List<String> users){
-        //declaro a variavel com a localização da pasta
+        //declaring the variable with the folder location
         File folder = new File("src/main/java/fileio/filewriter/exportercsv/databasecsv");
-        //se a pasta de destino não existir
+        //if the destination folder does not exist
          if(!folder.exists()){
-            //a pasta então é criada
+            //then the folder is created
             folder.mkdirs();
             System.out.println("Folder 'databasecsv' created with success.");
         }
-        //declaro que o arquivo a ser registrado no hd vai ficar na localização da variavel folder e que o seu nome vai ser users.csv
+        //declaring that the file to be saved on the hard drive will be located at the folder variable location and its name will be users.csv
         File csvFile = new File(folder,"users.csv");
-        //agora ele então vai tentar criar a variavel que vai ficar responsavel pela escrita no arquivo, por isso o arquivo é passado como parametro
+        //now it will try to create the variable that will be responsible for writing to the file, which is why the file is passed as a parameter
         try{
             FileWriter writer = new FileWriter(csvFile);
-            //agora eu utilizo o metodo de escrever da variavel writer e passo o cabeçalho que vai estar presente no arquivo
+            //now I use the write method of the writer variable and pass the header that will be present in the file
             writer.write("ID, NOME\n");
            for(int i=0;i<users.size();i++){
-            //para cada usuario na lista, o i (inidice) vira o ID e o nome do usuario não muda
+            //for each user in the list, the index i becomes the ID and the user's name does not change
                 writer.write(i+","+users.get(i)+"\n");
             }
-            //fechando para evitar b.o
+            //closing to avoid issues
             writer.close();
-            //se der erro ele pega esse erro 
+            //if there is an error, it catches this error 
         } catch(IOException e){
-            //e tranforma numa mensagem mais legivel
+            //and transforms it into a more readable message
             System.out.println("Error: "+e.getMessage());
         }
 
